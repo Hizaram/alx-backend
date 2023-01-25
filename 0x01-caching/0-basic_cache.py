@@ -7,7 +7,7 @@ class BasicCache(BaseCaching):
     """Class BasicCache that represents an object that allows storing
     and retrieval of items from a dictionary
     """
-    def put(self, key,item):
+    def put(self, key, item):
         """Method that adds an object to the dictionary using the key"""
         if key and item:
             self.cache_data[key] = item
